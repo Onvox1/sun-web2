@@ -1,0 +1,47 @@
+html {
+    scroll-behavior:initial;
+}
+
+#header-section {
+    background-image:  url(../images/slonce-1080x480.jpg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: space;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#second-section
+{
+    color: rgba(0, 0, 0, .75);
+    background-image: linear-gradient(rgba(255, 255, 0,0.5),rgba(255, 0, 0,0.5));
+    background-repeat:space;
+    background-attachment:scroll;
+}
+
+#intresting
+{
+    text-align: center;
+}
+
+#text-in-white
+{
+    text-emphasis-color: rgb(0,0,0);
+    text-decoration-line: overline;
+}
+
+#parallax-section {
+    background-image: url(../images/slonce-1080x480.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#footer-section {
+    background-image: url(../images/słońce2.jpg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+    background-attachment:scroll;
+}
